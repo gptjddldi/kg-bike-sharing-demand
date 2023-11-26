@@ -33,3 +33,30 @@ git push origin {브랜치 이름}
 
 
 환경설정이 잘 안되면 그냥 평소에 하던대로 개발하고 같이 봐요! ㅎㅎ
+
+
+---
+
+
+Data Fields
+
+- datetime - 시간별 날짜 + 타임스탬프  
+- season 
+    - 1: 봄
+    - 2: 여름
+    - 3: 가을
+    - 4: 겨울 
+- holiday - 휴일
+- workingday - 주말도 휴일도 아닌 날
+- weather
+    - 1: 맑음, 구름 조금, 구름 조금, 흐림
+    - 2: 안개 + 흐림, 안개 + 산발적 구름, 안개 + 구름조금, 안개
+    - 3: 약한 눈, 약한 비 + 천둥번개 + 흩날리는 구름, 약한 비 + 흩날리는 구름
+    - 4: 폭우 + 얼음판 + 뇌우 + 안개, 눈 + 안개 
+- temp - 실제 온도 (섭씨)
+- atemp - 체감 온도 (섭씨)
+- humidity - 상대 습도
+- windspeed - 풍속
+- casual - 비회원의 대여 수
+- registered - 회원의 대여 수
+- count - 총 대여 횟수 (casual + registered)
