@@ -2,6 +2,4 @@
 
 main.ipynb: 데이터 시각화 파일
 
-prev_model.ipynb: 데이터 전처리 파일
-
-model.ipynb: 머신러닝 학습 파일
+model.ipynb: 데이터 전처리 및 머신러닝 학습 파일
